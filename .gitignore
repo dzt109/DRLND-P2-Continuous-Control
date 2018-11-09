@@ -1,0 +1,16 @@
+model-*
+*/model-*
+Crawler_Mac.zip
+Reacher_Mac_1.zip
+Reacher_Mac_20.zip
+Crawler_Mac.app
+Reacher_Mac_1.app
+Reacher_Mac_20.app
+Crawler_Linux
+Crawler_Linux_NoVis
+Reacher_Linux_1
+Reacher_Linux_20
+Reacher_Linux_NoVis_1
+Reacher_Linux_NoVis_20
+.ipynb_checkpoints/
+__pycache__/
