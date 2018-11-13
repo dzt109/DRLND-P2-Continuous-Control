@@ -35,7 +35,7 @@ This gives 4 (GAMMA) * 3 (fc1_units) * 3 (fc2_units) * 2 (LR_ACTOR) * 2 (LR_CRIT
 The neural network architecture is as follows:
 
 The results are shown below (the horizontal black line is the value required to be considered solved):
-![all_model_plots](results-tennis.png)
+![all_model_plots](results-reacher.png)
 
 After this grid search for hyper parameters, I took the 5 best models (models 60, 94, 96, 130, 132) and re-trained using new starting seeds for initialization. I trained 5 new seeds (10, 20, 30, 40, 50) to find which model performs best.
 
@@ -60,7 +60,7 @@ With GAMMA = 0.99, LR_ACTOR = 1e-3, fc1_units = 200, fc2_units = 400.
 
 The results for all-models and the seed-models are shown (sorted by win_iter) in the tables in the Appendix - A and Appendix - B respectively.
 
-The best models can be found [here]().
+The best models can be found [here](best-models).
 
 # Future Work!
 
